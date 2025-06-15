@@ -1,15 +1,20 @@
 import Hero from "./components/Hero";
 import HomeCards from "./components/HomeCards";
-import JobListing from "./components/JobListing";
+import JobListings from "./components/JobListings";
 import Navbar from "./components/Navbar";
+import ViewAllJobs from "./components/ViewAllJobs";
 
 const App = () => {
   return (
     <>
-      <Navbar logo='Logo PROPS' />
-      <Hero title='This hero title' subtitle='susbtitle prop content' />
+      <Navbar logo='Logo' />
+      <Hero
+        title='This hero title'
+        subtitle='Find the react job that fits your skill set'
+      />
       <HomeCards />
-      <JobListing />
+      <JobListings />
+      <ViewAllJobs />
     </>
   );
 };

@@ -1,5 +1,9 @@
 const Navbar = ({ logo }) => {
-  return <div>Navbar {logo}</div>;
+  return (
+    <nav className='py-3'>
+      <div>Navbar {logo}</div>
+    </nav>
+  );
 };
 
 export default Navbar;
