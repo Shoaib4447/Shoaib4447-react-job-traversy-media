@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaMapMarker } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const JobListing = ({ job }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
@@ -31,12 +32,12 @@ const JobListing = ({ job }) => {
           {job.location}
         </div>
         <div>
-          <a
-            href='#'
+          <Link
+            to='#'
             className='bg-blue-500  py-2 px-3 font-bold text-white rounded mt-4 inline-block text-center'
           >
             Read More
-          </a>
+          </Link>
         </div>
       </div>
     </div>

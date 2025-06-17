@@ -7,7 +7,7 @@ const Hero = ({ title, subtitle }) => {
         <h1 className='text-6xl font-bold leading-normal text-white uppercase'>
           {title}
         </h1>
-        <p className=''>{subtitle}</p>
+        <p className='text-white'>{subtitle}</p>
       </section>
     </>
   );
