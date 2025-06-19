@@ -33,7 +33,7 @@ const JobListing = ({ job }) => {
         </div>
         <div>
           <Link
-            to='#'
+            to={`/jobs/${job.id}`}
             className='bg-blue-500  py-2 px-3 font-bold text-white rounded mt-4 inline-block text-center'
           >
             Read More
